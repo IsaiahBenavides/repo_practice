@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<style type="text/css">
+input[type=text] :focus{
+    background-color: green;
+    color: black;
+    width: 100%;
+    transition: 2s;
+}
+
+    form{
+        padding: 15px;
+        background-color: blanchedalmond;
+        font-style: italic;
+        border-style: solid;
+        font-weight: 900px;
+    }
+    input[type=button] :hover {
+        border: solid;
+        color: black;
+        background-color: rgb(0, 230, 0);
+        padding: 5px;
+    }
+    #IDTEST{
+        color: aqua;
+    }
+    .testlist{
+        text-decoration: underline;
+    }
+
+</style>
+<html>
+    <body>
+        <form id="form">
+            <h3>creating a form using HTML</h3>
+            First Name: <br>
+            <input type="text" name="FirstName" placeholder="first name"> <br>
+            Last Name: <br>
+            <input type="text" name="LastName" placeholder="last name"> <br>
+            Class: <br>
+            <input type="text" name="Class" placeholder="class"> <br>
+            Sex   <br>
+            <input type="radio" name="Sex" value="Female">
+                        Female <br>
+            <input type="radio" name="Sex" value="Male">
+                        Male <br>
+            <input type="button" name="Submit" value="submit">
+        </form>
+        <div>
+            <p>This is a paragraph</p>
+        </div>
+        <p id="IDTEST">This is a test</p>
+
+        <ol>
+            <li class="TESTLIST">Item one</li>
+            <li class="TESTLIST">Item two</li>
+            <li>Item three</li>
+        </ol>
+    </body>
+
+</html>

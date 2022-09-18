@@ -1,0 +1,120 @@
+    #input{
+        border: 5px;
+        background-color: yellowgreen;
+        text-align: left;
+    }
+    #div1,
+    #div2,
+    #div3,
+    #div4,
+    #div5 {
+        border: dashed;
+    }
+
+    #div3 {
+        background-color: black;
+    }
+
+    #div2 {
+        background-color: gray;
+    }
+
+    #div1 {
+        background-color: thistle;
+    }
+
+    nav {
+        text-align: right;
+    }
+
+    #div5 {
+        background-color: blue;
+        text-align: center;
+    }
+
+    span {
+        color: green;
+        font-size: larger;
+    }
+
+    #div4 {
+        background-color: azure;
+    }
+
+    .PandH {
+        font-size: large;
+        color: rgb(35, 168, 41);
+    }
+
+    #TableHeader {
+        text-align: center;
+        color: royalblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Subheader {
+        color: red;
+        font-style: italic;
+        text-align: center;
+    }
+
+    #VideoCaption {
+        color: rgb(21, 255, 0);
+        font-size: larger;
+    }
+
+    table {
+        margin: auto;
+    }
+
+    h2 {
+        text-decoration: underline;
+    }
+
+    .Childhood {
+        font-size: large;
+        color: rgb(6, 173, 173);
+        columns: 2;
+        column-gap: 1em;
+    }
+
+    li {
+        font-style: oblique;
+    }
+
+    body {
+        background-color: blanchedalmond;
+    }
+
+    a {
+        color: blueviolet;
+    }
+
+    #portrait{
+        align-items: center;
+    }
+
+    #div1half{
+        background-color: rgb(5, 1, 43);
+        border: solid;
+        width: 50%;
+        height: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    #div2half{
+        background-color: rgb(58, 6, 88);
+        border: solid;
+        width: 49%;
+        height: 300px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+    }
+    #div2col{
+        
+        margin: 5px;
+        border: solid goldenrod;
+    }
